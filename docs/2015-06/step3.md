@@ -42,7 +42,7 @@ $ pip install myutils
 
 #### モジュールインストール
 
-```
+```console
 $ python setup.py install
 ```
 
@@ -50,13 +50,13 @@ $ python setup.py install
 
 例えばgithubで公開してあるのであれば
 
-```
+```console
 $ pip install git+https://github.com/laughk/kite-string.git
 ```
 
 #### PyPI への登録
 
-```
+```console
 $ python setup.py sdist
 ```
 
@@ -83,7 +83,7 @@ setup(
 * `entry_points` : ここでインストールされるコマンド名とそれに紐づくメソッドを関連付ける。
 * `install_requires` : 他のpypiパッケージに依存する場合はここに記載するとinstallの際に同時にインストールされる。
 
-```
+```python
 from setuptools import setup, find_packages
 
 setup(
