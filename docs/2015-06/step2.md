@@ -64,4 +64,4 @@ parser = argparse.ArgumentParser(description='Process some integers.')
     sum_parser.set_defaults(func=sum_command)
 ```
 
-# 標準モジュールでのコマンドラインツールの作成の流れは異常
+# 標準モジュールでのコマンドラインツールの作成の流れは以上
